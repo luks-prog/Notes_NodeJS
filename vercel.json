@@ -1,0 +1,17 @@
+{
+    "version": 3,
+    "framework": "node",
+    "builds": [
+      {
+        "src": "server",
+        "target": "server"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/api/(.*)",
+        "dest": "/api/"
+      }
+    ]
+  }
+  
